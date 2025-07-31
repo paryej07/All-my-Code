@@ -1,5 +1,4 @@
-n = int(input("Enter the value of N:"))
-dic = dict()
-for i in range(1,n+1):
-    dic[i]=(i*i)
-print(dic)
+dict1 = dict(A=1,B=2,C=3)
+j = ['A']
+r = {k = dict1[k] for k in j}
+print(r)
